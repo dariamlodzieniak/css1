@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>styl importowany</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- importowany Szałaty -->
+ <style>
+ @import url("szał_z5_1.css ");
+ </style>
+</head>
+<body bgcolor="silver">
+ <h1> importowany arkusz</h1>
+ <p> Szałaty - Najlepsze programy do Grafiki!<br>
+
+    Adobe Photoshop<br>
+    Adobe InDesign<br>
+    Adobe Ilustrator </p>
+ </body>
+</html>
+___________________________________________________
+ kod css
+ h1 {
+color: #000080;
+font-size: 69px;
+ }
