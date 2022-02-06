@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>styl zewnetrzny</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- zewnetrzny Szałaty -->
+ <LINK href="szał_z5_2.css" rel="stylesheet" 
+type="text/CSS">
+</head>
+<body bgcolor="silver">
+ <h1>Szałaty -> zewnętrzny</h1>
+<p>  Najlepsze programy do obróbki video! <br>
+
+    Adobe Premiero Pro<br>
+    Lightworks<br>
+    Adobe Premier Elements </p>
+
+ </body>
+</html>
+_________________________________________________
+kod css
+h1 {
+color: #008080;
+font-size: 49 px;
+ }
