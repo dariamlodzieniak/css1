@@ -1,0 +1,30 @@
+<html>
+<head>
+<META charset="utf-8">
+</head>
+<body>
+<ol>
+<h1><li> Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego. </li></h1>
+<p> Styl Lokalny pozwala na formatowanie konkretnego elementu. </p>
+
+<h1><li> Składnia teoretyczna ( z użyciem ramki otaczającej może być tabela o jednej 
+komórce, zastosuj „znaki specjalne” do napisania definicji stylu lokalnego tak aby 
+instrukcja CSS nie wykonywała się a tylko wyświetlała wewnątrz ramki [&nbsp;
+spacja niełamana] przykład „znaku specjalnego”) </li></h1>
+<<textarea rows="5" cols="85"> <selektor style="cecha1: wartość1; cecha2: wartość2...">
+...</selektor> ALBO
+<selektor style="nasze style">treść blocku</selektor> </textarea>
+
+<h1><li>Co może być selektorem </li></h1>
+<p> Dowolny znacznik</p>
+
+<h1><li>Co wpisujemy jako "cechę". Jakie jest znaczenie średników </li></h1>
+<p> Jako "cecha" czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi(np:kolor tekstu -color). Jednemu selktorowi możemy nadać kilka atrybutów(cech). Są one wtedy rozdzielone średnikami.</p>
+
+<h1><li>Co wpisujemy jako "wartość" (w deklaracji stylu).</li></h1>
+<p>Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np:dla koloru tekstu będzie to: red,blue, czy też #71E2B3 itd.). Wartość zależy ściśle od cechy, po której stoi w deklaracji. </p>
+
+</ol>
+
+</body>
+</html>
