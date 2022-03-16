@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl-Pl">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Daria Mlodzieniak" />
+    <style type="text/css">
+        body {
+            font-family: Arial;
+        }
+ 
+        div {
+            border: 1px solid black;
+            padding: 3px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <h1>Wewnętrzny arkusz stylów</h1>
+    <OL>
+        <LI>
+            <h2>Gdzie jest wstawiany?</h2>
+            <p>
+                <div>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami &lt;head&gt; a &lt;/head&gt;). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, występują wielokrotnie na stronie i wszystkim chcemy nadać takie
+                    same atrybuty (inne niż domyślne).</div>
+            </p>
+        </LI>
+        <LI>
+            <h2>Składnia teoretyczna</h2>
+            <p>
+                <textarea readonly="readonly" style="width:80%; height:180px; overflow: hidden; resize: none;">
+<head>
+    (...)
+        <style type=" text/css ">
+    /* <![CDATA[ */
+    selektor1 { cecha: wartość; cecha2: wartość2... }
+    selektor2 { cecha: wartość; cecha2: wartość2... }
+    (...)
+    /* ]]> */
+    </style>
+(...)
+</head>
+                </textarea>
+            </p>
+        </LI>
+        <LI>
+            <h2>Rodzaje selektorów</h2>
+            <p>
+                <div>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi znacznikami, nadajemy atrybuty formatowania opisane w
+                    arkuszu.
+                </div>
+            </p>
+        </LI>
+        <LI>
+            <h2>Cechy i wartości</h2>
+            <p>
+                <div>Jako "cecha " (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach). Natomiast jako wyraz "wartość " wpisujemy dokładną wartość atrybutu. Zwróć uwagę, że jednemu
+                    selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.</div>
+            </p>
+        </LI>
+    </OL>
+</body>
