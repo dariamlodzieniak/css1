@@ -1,0 +1,13 @@
+body {
+  color: blue;
+  font-size: 30pt;
+}
+p{
+  font-size: 20pt;
+}
+p:nth-child(even) {
+  color: green;
+}
+p:nth-child(odd) {
+  color: blue;
+}
