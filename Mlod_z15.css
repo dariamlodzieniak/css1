@@ -1,8 +1,9 @@
 body {
-  color: blue;
+  color: rgb(58%,35%,80%);
   font-size: 30pt;
 }
 p{
+  color:#679959;
   font-size: 20pt;
 }
 p:nth-child(even) {
