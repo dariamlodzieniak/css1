@@ -24,9 +24,4 @@ p{
   color:#679959;
   font-size: 20pt;
 }
-p:nth-child(even) {
-  color: green;
-}
-p:nth-child(odd) {
-  color: blue;
-}
+
