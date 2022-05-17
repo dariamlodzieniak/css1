@@ -7,7 +7,23 @@
       <ol>
             <li><h1>Opis znacznika DIV (jaki to element, składnia w ramce, zastosowanie, opis treotyczny, atrybuty tylko wymień, opisz tylko ALIGN).</h1></li>
             <li><h1>Opis znacznika SPAN (jaki to element, składnia w ramce, zastosowanie, opis treotyczny).</h1></li>
+          <p>Elementy wyświetlanie w linii (SPAN) jest elementem liniowym nie mogą zawierać 
+              elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst. </p>
+          <p> Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do 
+wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf <p> z zasady 
+nie może zawierać elementów blokowych) tylko span. </p>
+          <style> td { border: 1px solid black; } </style>
+          <table>
+              <tr>
+                  <td><span style="cecha1: wartość1; cecha2: wartość2...">...</span></td>
+              </tr>
+          </table>
             <li><h1>Różnica między znacznikami DIV i SPAN.</h1></li>
+          <p> Obydwa elementy służą jedynie do wyodrębniania części struktury dokumentu, aby docelowo 
+na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony.
+Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu) a divem blokowe
+(blokowe elementy, większe fragmenty struktury składające się na układ strony).
+              Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii. </p>
             <li><h1>Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.</h1></li>
           <ul type=a>
               <li>Elementy liniowe nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w 
