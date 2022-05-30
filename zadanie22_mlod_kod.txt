@@ -35,3 +35,18 @@
 </body>
 </html>
 <!--Daria Mlodzieniak-->
+
+p{
+  color:red;
+  font-size: 22pt;
+}
+p[title=gruba_mlodzieniak] {
+  color:green;
+  font-size: 17pt;
+  font-weight: bold;
+}
+#dlawszystkich_mlodzieniak {
+  color: yellow;
+  font-size: 10pt;
+  font-family: Arial;
+}
