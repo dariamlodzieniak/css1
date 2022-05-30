@@ -2,7 +2,7 @@ p{
   color:red;
   font-size: 22pt;
 }
-#gruba_mlodzieniak {
+p[title=gruba_mlodzieniak] {
   color:green;
   font-size: 17pt;
   font-weight: bold;
