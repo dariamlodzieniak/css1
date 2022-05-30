@@ -1,14 +1,26 @@
 p#pogrubienie_mlodzieniak {
+  font-size: 36px;
+  color: #9459CB;
 }
 p#pochylona_mlodzieniak {
+  font-size: 41pt;
+  color: #F8BD67;
 }
 p#index_gorny_mlodzieniak {
+  font-size: 1.6cm;
+  color: #A88B17;
 }
 p#index_dolny_mlodzieniak {
+  font-size: 2.7cm;
+  color: rgb(68%,239%,223%);
 }
 p#mono_mlodzieniak {
+  font-size: 46px;
+  color: #28DB67;
 }
 p#powiekszenie_mlodzieniak {
+  color: #623B99;
 }
 p#pomniejszenie_mlodzieniak {
+  color: rgb(198%,159%,53%);	
 }
