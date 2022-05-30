@@ -1,4 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="pl-Pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Daria Mlodzeniak" />
+      <link rel="Stylesheet" type="text/css" href="mlodzieniak_z23.css" />
+</head>
+<body>
+<p id="pogrubienie_mlodzieniak">Mlodzieniak <br>
+  Spotyka się dwóch programistów: - Słyszałem, że straciłeś pracę. <br>
+  Jak to jest być bezrobotnym? - To było najgorsze pół godziny mojego życia!
+</p>
+<p id="pochylona_mlodzieniak">Mlodzieniak <br>
+  Z programowaniem jak z budową katedry, budujesz,budujesz a potem się modlisz (żeby wszystko działało).
+</p>
+<p id="index_gorny_mlodzieniak">Mlodzieniak <br>
+  Dlaczego programiści mylą Boże Narodzenie z Halloween ? <br>
+  Bo 25 Dec = 31 Oct
+</p>
+<p id="index_dolny_mlodzieniak">Mlodzieniak <br>
+  Dlaczego nie można programować w Boże Narodzenie? <br>
+  -Bo bug się rodzi
+</p>
+<p id="mono_mlodzieniak">Mlodzieniak <br>
+  aki rozmiar stanika nosi dziewczyna programisty? <br>
+  - C++
+</p>
+<p id="powiekszenie_mlodzieniak">Mlodzieniak <br>
+  Co mówi informatyk kiedy informuje policjanta, że sąsiad popełnił samobójstwo? <br>
+  - Panie władzo, Franek się zawiesił
+</p>
+<p id="pomniejszenie_mlodzieniak">Mlodzieniak <br>
+  int kobieta; //kobieta zmienną jest
+</p>
+</body>
+</html>
+<!--Daria Mlodzieniak-->
 
 p#pogrubienie_mlodzieniak {
   font-size: 36px;
