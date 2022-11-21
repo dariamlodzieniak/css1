@@ -1,37 +1,48 @@
-<html>
+<!DOCTYPE html>
   <head>
+     <title>zadanie 32 - Młodzieniak</title>
+    <meta charset="utf-8" />
   </head>
   <body>
     <h1>5)Podaj definicję modelu pudełkowego.</h1>
+    <p>Każdy element w dokumencie HTML, otacza się prostokątnym obszarem zwanym pudełkiem (ang. Box model). Pudełko składa się z kilku warstw.</p>
     <h1>6)Wykonaj oraz uzupełnij tabelę:</h1>
- <table width=95% border="1" align="center">
- <tr>
-   <td><p><b>Zawartość</b></p></td>
-   <td><b>Opis</b></td>
-   </tr>
-   <tr>
-   <td><p>conent</p></td>
-   <td></td>
-   </tr>
-<tr>
-   <td></td>
-   <td></td>
-   </tr>
-   <tr>
-     <td></td>
-     <td></td>
-   </tr>
-     <td></td>
-     <td></td>
- </tr>
-</table>
+<table width="100%" border="1" align="center">
+        <tr>
+            <td style=" padding:5px; width:25%; text-align:center; font-size: 20px;"><b>zawartość</b></td>
+            <td style=" padding:5px; width:25%; text-align:center; font-size: 20px;"><b>opis</b></td>
+        </tr>
+        <tr>
+            <td style="padding:5px; vertical-align: top; font-size: 14px;">content</td>
+            <td style="padding:5px; vertical-align: top; font-size: 14px;">zawartość elementu (np.: tekst, obrazek)</td>
+        </tr>
+        <tr>
+            <td style="padding:5px; vertical-align: top; font-size: 14px;">padding</td>
+            <td style="padding:5px; vertical-align: top; font-size: 14px;">otaczające marginesy wewnętrzne, odstęp między obramowaniem i zawartością elementu</td>
+        </tr>
+        <tr>
+            <td style="padding:5px; vertical-align: top; font-size: 14px;">border</td>
+            <td style="padding:5px; vertical-align: top; font-size: 14px;">obramowania wokół zawartości elementu, ma styl i kolor</td>
+        </tr>
+        <tr>
+            <td style="padding:5px; vertical-align: top; font-size: 14px;">margin</td>
+            <td style="padding:5px; vertical-align: top; font-size: 14px;">marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół ramki, który nie ma koloru tła i jest przeźroczysty</td>
+        </tr>
+    </table>
     <h1>7)Podaj dwie uwagi na temat modelu pudełkowego.</h1>
-Uwaga1
-………………………………………………………
-Uwaga2
-………………………………………………………
+    <h1>Uwaga1</h1>
+ <ol>
+        <li>Padding, border i margin mogą mieć zerową wartość.</li>
+  <h1>Uwaga2</h1> 
+        <li>Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem marginesów zewnętrznych, które zawsze są przezroczyste (transparentne).</li>
+    </ol>
+
     <h1>8)Wstaw grafikę obrazującą model pudełkowy.</h1>
+    <img src="model_pudelkowy.png" alt="model pudełkowy">
     <h1>9)Wstaw grafikę obrazującą różnicę pomiędzy paddingiem i marginesem wraz z opisem.</h1>
+    <img src="roznica.png" alt="różnica">
+     <p>Padding określa przestrzeń wokół danego elementu, np: &lt;p&gt; lub &lt;div&gt;, natomiast margines przestrzeń pomiędzy elementami. Jak widać na rysunku, padding oznaczony jest kolorem niebieskim. Określa on wielkość przestrzeni wokół elementu &lt;p&gt;.
+        Element ten posiada również margines zaznaczony kolorem pomarańczowym. Jest to odległość od brzegu elementu &lt;body&gt;.</p>
   </body>
 </html>
 <!-- Daria Mlodzieniak -->
