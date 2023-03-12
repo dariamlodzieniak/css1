@@ -11,7 +11,7 @@ A:visited
 {
 color: green;
 }
-A:hover
+.div1
 {
 color: red;
 text-decoration: underline;
