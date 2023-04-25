@@ -16,11 +16,13 @@ A:hover
 color: red;
 text-decoration: underline;
 }
-div#div1
+div
 {
   color: red;
   font-size: 2cm;
 }
+/*
 <!--text-decoration: none nie zmienia nic w tekscie -->
 <!--text-decoration: underline podkresla tekst -->
 <!--Daria Mlodzieniak -->
+*/
