@@ -1,28 +1,12 @@
-div#blok1_mlodzieniak{
-	 background-color: green;
-	 width: 615px;
- }
- div#blok2_mlodzieniak{
-	 background-color: green;
-	 width: 615px;
- }
- div#blok3_mlodzieniak{
-	 background-color: green;
-	 width: 615px;
- }
- div#blok1_mlodzieniak:hover{
-	 background-color: orange;
-	 font-size: 21mm;
- }
- div#blok2_mlodzieniak:hover{
-	 background-color: lightgreen;
-	 font-size: 21mm;
- }
- div#blok3_mlodzieniak:hover{
-	 background-color: gold;
-	 font-size: 21mm;
- }
-<!--hover: Właściwość :hover CSS pseudo-class jest używana gdy użytkownik wchodzi w interakcję z elementem 
+div#blok1_mlodzieniak {background-color: green;width:615px;}
+div#blok2_mlodzieniak {background-color: green;width:615px;}
+div#blok3_mlodzieniak {background-color: green;width:615px;}
+div#blok1_mlodzieniak:hover {background-color: red;font-size:22mm;}
+div#blok2_mlodzieniak:hover {background-color: orange;font-size:22mm;}
+div#blok3_mlodzieniak:hover {background-color: yellow;font-size:22mm;}
+/*
+hover: Właściwość :hover CSS pseudo-class jest używana gdy użytkownik wchodzi w interakcję z elementem 
  za pomocą urządzenia wskazującego, ale niekoniecznie go aktywuje. Generalnie wyzwalanie następuje gdy użytkownik
- wskaże element kursorem, np. wskaźnikiem myszy. -->
+ wskaże element kursorem, np. wskaźnikiem myszy.
  <!--Daria Mlodzieniak -->
+*/
